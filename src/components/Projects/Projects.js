@@ -7,7 +7,7 @@ import { projects } from '../../constants/constants';
 
 
 const Projects = () => (
-  <Section nopadding id="projects">
+  <Section id="projects">
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
@@ -16,7 +16,7 @@ const Projects = () => (
           <div style={{ height: '100%'}}>
           <Img src={image} />
           <TitleContent>
-            <HeaderThree title>{title}</HeaderThree>
+            <HeaderThree>{title}</HeaderThree>
             <Hr />
           </TitleContent>
           <CardInfo>{description}</CardInfo>
